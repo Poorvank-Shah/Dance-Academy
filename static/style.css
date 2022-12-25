@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari&family=Kalam&family=Merienda&family=Yeon+Sung&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    margin: -3px 20px -3px 8px ;
+}
+#logo img{
+    height: 35px;
+    filter: invert(1);
+}
+#navbar{
+    background-color: #e10707;
+    padding: 13px 14px;
+    font-family: 'Merienda', cursive;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+#navbar li{ 
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 20px;
+    font-size: 20px;
+    color: white;
+}
+
+#navbar li a:hover{
+    color: black;
+}
+
+#introSection{
+    color: white;
+    background: center / cover no-repeat url('/static/bg (1).jpg');
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kalam', cursive;
+    font-size: 45px;
+    padding-bottom: 56px;
+}
+
+#introSection div.small{
+    font-size: 35px;
+}
+
+#missionSection{
+    height: 320px;
+    margin: auto;
+    width: 80%;
+    padding: 0;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 40px 17px;
+    display: inline-block;
+    height: 150px;
+}
+
+.card h3{
+    text-align: center;
+    margin: 5px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-img{
+    height: 100px;
+    padding: 0 14px;
+}
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 0 10px;
+}
+
+.card-content p{
+    font-size: 20px;
+}
+
+#missionSection h2{
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Yeon Sung', cursive;
+    font-size: 35px;
+}
+
+#sponsorSection{
+    height: 300px;
+    background-color: rgb(255 195 195);
+}
+
+#sponsorSection h2{
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Yeon Sung', cursive;
+    font-size: 35px;
+}
+
+#sponsors{
+    height: 176px;
+    width: fit-content;
+    margin: auto;
+}
+
+#sponsors img{
+    height: 80%;
+    margin: 20px;
+}
+
+#footer{
+    height: 45px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Merienda', cursive;
+}

@@ -1,0 +1,49 @@
+extends base.pug
+
+block scripts 
+    script 
+        include ../static/index.js
+
+block style
+    style 
+        include ../static/style.css
+
+block content 
+    section#introSection 
+        div Welcome to Poorvank's Dance Academy 
+        div.small Eat Dance Sleep Repeat
+
+    section#missionSection 
+        h2 Our Mission 
+        div.card
+            h3 Dance Perfection
+            div.card-box 
+                div.card-img 
+                    img(src='/static/img/1.png')
+                div.card-content    
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quae voluptate, 
+
+        div.card
+            h3 Dance the way you want to
+            div.card-box 
+                div.card-img 
+                    img(src='/static/img/2.png')
+                div.card-content    
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quae voluptate, 
+
+        div.card
+            h3 Expert Teaching
+            div.card-box 
+                div.card-img 
+                    img(src='/static/img/3.png')
+                div.card-content    
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quae voluptate, 
+
+    section#sponsorSection 
+        h2 Our Sponsor 
+        div#sponsors 
+            img(src="/static/img/logo1.png", alt="sponsor image", class = "spImg")
+            img(src="/static/img/logo2.png", alt="sponsor image", class = "spImg")
+            img(src="/static/img/logo3.png", alt="sponsor image", class = "spImg")
+            img(src="/static/img/logo4.png", alt="sponsor image", class = "spImg")    
+

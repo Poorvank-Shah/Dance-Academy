@@ -1,0 +1,60 @@
+doctype html
+html
+    head 
+        title #{title}
+        style 
+            include ../static/style.css
+        script 
+            include ../static/index.js
+    body 
+        nav#navbar.top 
+            ul 
+                div#logo 
+                    img(src='/static/img/logo.png')
+                    |PDA
+                li #[a(href='/') Home ]
+                li #[a(href='/') About ]
+                li #[a(href='/') Services ]
+                li #[a(href='/') Class Info ]
+                li #[a(href='/') Contact us ]
+        
+        section#introSection 
+            div Welcome to Poorvank's Dance Academy 
+            div.small Eat Dance Sleep Repeat
+
+        section#missionSection 
+            h2 Our Mission 
+            div.card
+                h3 Dance Perfection
+                div.card-box 
+                    div.card-img 
+                        img(src='/static/img/1.png')
+                    div.card-content    
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quae voluptate, 
+
+            div.card
+                h3 Dance the way you want to
+                div.card-box 
+                    div.card-img 
+                        img(src='/static/img/2.png')
+                    div.card-content    
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quae voluptate, 
+
+            div.card
+                h3 Expert Teaching
+                div.card-box 
+                    div.card-img 
+                        img(src='/static/img/3.png')
+                    div.card-content    
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quae voluptate, 
+
+        section#sponsorSection 
+            h2 Our Sponsor 
+            div#sponsors 
+                img(src="/static/img/logo1.png", alt="sponsor image", class = "spImg")
+                img(src="/static/img/logo2.png", alt="sponsor image", class = "spImg")
+                img(src="/static/img/logo3.png", alt="sponsor image", class = "spImg")
+                img(src="/static/img/logo4.png", alt="sponsor image", class = "spImg")
+                
+        footer#footer 
+            | Copyright© 2022 PoorvankDanceAcademy | All rights reserverd  
